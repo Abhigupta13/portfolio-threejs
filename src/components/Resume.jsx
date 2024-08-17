@@ -55,7 +55,7 @@ const Resume = () => {
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p> */}
     
-    <a href="https://link.adityaiiitr.in/resume">
+    <a href="https://drive.google.com/file/d/10Q3KrEGSj4eOk4GzxpGoWx6WbivjwJX_/view?usp=sharing">
       <div className='mt-10 flex flex-wrap gap-10'>
         {services2.map((service2, index) => (
           <ServiceCard key={service2.title} index={index} {...service2} />

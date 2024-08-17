@@ -37,7 +37,7 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Aditya Mishra",
+          to_name: "Abhishek Gupta",
           from_email: form.email,
           reply_to: form.email,
           message: form.message,
@@ -133,7 +133,7 @@ const Contact = () => {
       
     </div>
     <h2 className={`${styles.sectionSubText} py-4`}>
-    You came Here For a Reason!? I need to hear it... For Mail <span className="text-bold text-underline"><a href="mailto:contact@adityaiiitr.in" >Click Here</a></span>
+    You came Here For a Reason!? I need to hear it... For Mail <span className="text-bold text-underline"><a href="mailto:abhishek.akg13@gmail.com" >Click Here</a></span>
   </h2>
   </>
   );
