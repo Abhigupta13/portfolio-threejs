@@ -1,0 +1,44 @@
+Setup project
+npm create vite@latest ./ -- --template react
+
+Setup Tailwindcss 
+npm install -D tailwindcss
+npx tailwindcss init
+
+Installing other dependencies 
+npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom three
+
+Public, assets & Components Folder
+https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z
+
+Delete the app.css file inside the  src folder 
+
+App.jsx Starter Template
+`
+const App = () => {
+  return (
+    <>
+      3D Developer Portfolio
+    </>
+  )
+}
+
+export default App
+`
+
+Get index.css from gist
+https://gist.github.com/adrianhajdin/b1d33c262941a7e21aad833a1cfc84b1
+
+Create a style.js 
+- to store some predefined tailwindcss so that you dont write it all.
+
+Edit the tailwind.config.js
+
+Make a utils/motion.js
+- for all the framer motion we are using
+
+
+npm run dev
+
+TailwindCSS Not Working with Vite So
+npm install -D --legacy-peer-deps postcss autoprefixer 
