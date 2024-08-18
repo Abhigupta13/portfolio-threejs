@@ -57,7 +57,7 @@ import {
   const services = [
     {
       title: "Backend Development",
-      icon: web,
+      icon: backend,
     },
     {
       title: "Machine Learning",
@@ -65,10 +65,10 @@ import {
     },
     {
       title: "Frontend Development",
-      icon: backend,
+      icon: web,
     },
     {
-      title: "Content Creator",
+      title: "Competitive Programming",
       icon: creator,
     },
   ];
@@ -94,10 +94,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "FastAPI",
-      icon: fastapi,
-    },
+    // {
+    //   name: "FastAPI",
+    //   icon: fastapi,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -114,14 +114,14 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
