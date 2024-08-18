@@ -42,3 +42,8 @@ npm run dev
 
 TailwindCSS Not Working with Vite So
 npm install -D --legacy-peer-deps postcss autoprefixer 
+
+
+debug
+
+npm install --legacy-peer-deps
