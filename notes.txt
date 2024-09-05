@@ -13,6 +13,7 @@ https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z
 
 Delete the app.css file inside the  src folder 
 
+
 App.jsx Starter Template
 `
 const App = () => {
