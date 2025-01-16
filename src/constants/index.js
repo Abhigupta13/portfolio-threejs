@@ -1,30 +1,22 @@
 import {
-    mobile,
+    testing,
     backend,
     creator,
     web,
     javascript,
     typescript,
     html,
-    css,
     reactjs,
     redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-    fastapi,
-    singularity,
-    hog,
+    stratex_logo,
     scraperxyz,
     tourfy,
-    campapi
+    campapi,cpp,awsS3Icon,jestIcon,jiraIcon,mysql,postgre,postmanIcon,sql
+
   } from "../assets";
 
   const services2 = [
@@ -60,11 +52,11 @@ import {
       icon: backend,
     },
     {
-      title: "Machine Learning",
-      icon: mobile,
+      title: "Software Testing",
+      icon: testing,
     },
     {
-      title: "Frontend Development",
+      title: "Full-Stack Development",
       icon: web,
     },
     {
@@ -73,83 +65,47 @@ import {
     },
   ];
   
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    // {
-    //   name: "FastAPI",
-    //   icon: fastapi,
-    // },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+   const technologies = [
+    { name: "JavaScript", icon: javascript },
+    { name: "TypeScript", icon: typescript },
+    { name: "C/C++", icon: cpp || web },
+    { name: "SQL", icon: sql || web},
+    { name: "ReactJS", icon: reactjs },
+    { name: "Redux", icon: redux },
+    { name: "HTML", icon: html },
+    { name: "Tailwind CSS", icon: tailwind },
+    { name: "NodeJS", icon: nodejs },
+    { name: "ExpressJS", icon: backend },
+    { name: "MongoDB", icon: mongodb },
+    { name: "MySQL", icon: mysql|| web },
+    { name: "PostgreSQL", icon: postgre|| web },
+    { name: "Git", icon: git },
+    { name: "AWS S3", icon: awsS3Icon|| web },
+    { name: "Jest", icon: jestIcon|| web },
+    { name: "Jira", icon: jiraIcon|| web },
+    { name: "Postman", icon: postmanIcon|| web },
   ];
+  
+  
   
   const experiences = [
     {
-      title: "Backend Developer",
-      company_name: "Singularity AI",
-      icon: singularity,
+      title: "Backend Developer Intern",
+      company_name: "Stratex Consulting Services Pvt. Ltd.",
+      date: "Jun 2024 - Nov 2024",
+      icon: stratex_logo,
       iconBg: "#383E56",
-      date: "May 2023 - Jul 2023",
+      link: "https://drive.google.com/drive/folders/1NOYIQSVCNPxTFCVqgNwbEp0MPZ6Gf3_R?usp=sharing", // Link to related documents
       points: [
-        "Developed the BlendED plugin for ChatGPT using Python FastAPI, Uvicorn, and Dockerfile for seamless integration with the BlendED platform.",
-        "Maintained up-to-date documentation for seamless project onboarding. Successfully managed project timelines in a remote work environment.",
-        "Created RESTful API endpoints for question management, incorporating web scraping for dynamic content generation.",
-        "Achieved over 2000 new worksheet creations per month.",
+        "Architected and documented 35+ API blueprints following an API-first approach, reducing integration time by 30% across multiple development teams.",
+        "Developed modules and APIs for HRM, CRM, Appointment, Billing, Roster, forms, and authentication.",
+        "Implemented secure data solutions utilizing AWS S3 using KMS, ensuring compliance and data protection.",
+        "Engineered 400+ unit tests using Jest, significantly enhancing codebase reliability.",
+        "Mentored new interns, sharing best practices and ensuring seamless continuation of work processes.",
       ],
     },
-    {
-      title: "Graphic Designing Coordinator",
-      company_name: "House of Geeks Technical Society of IIIT Ranchi",
-      icon: hog,
-      iconBg: "#383E56",
-      date: "Feb 2023 - May 2023",
-      points: [
-        "Crafted an eye-catching promotional banner for Octocon 3.0, showcasing creative design skills.",
-        "Collaborated on the design of the IIIT Ranchi Newsletter, contributing to its visual appeal and layout.",
-      ],
-    }
   ];
+  
   
   const testimonials = [
     {

@@ -15,16 +15,16 @@ const FloatingFollowButton = () => {
     >
       {showFollowButton && (
         <div className="space-y-4">
-  <a href="https://x.com/Kgupta_abhishek" className="text-slate-200 hover:bg-[#2f225b] hover:text-secondary">
+  <a href="https://x.com/abhigupta_akg" className="text-slate-200 hover:bg-[#2f225b] hover:text-secondary" target='_blank' rel="noopener noreferrer">
     <FaTwitter className="w-6 h-6 rounded-md shadow-md" />
   </a>
-  <a href="https://leetcode.com/u/Abhigupta13/" className="text-slate-200 hover:bg-[#2f225b] hover:text-secondary">
+  <a href="https://leetcode.com/u/Abhigupta13/" className="text-slate-200 hover:bg-[#2f225b] hover:text-secondary" target='_blank' rel="noopener noreferrer">
     <TbBrandLeetcode className="w-6 h-6 rounded-md shadow-md" />
   </a>
-  <a href="https://www.linkedin.com/in/abhigupta3007/" className="text-slate-200 hover:bg-[#2f225b] hover:text-secondary">
+  <a href="https://www.linkedin.com/in/abhigupta3007/" className="text-slate-200 hover:bg-[#2f225b] hover:text-secondary" target='_blank' rel="noopener noreferrer">
     <TbBrandLinkedin className="w-6 h-6 rounded-md shadow-md" />
   </a>
-  <a href="https://github.com/Abhigupta13" className="text-slate-200 hover:bg-[#2f225b] hover:text-secondary">
+  <a href="https://github.com/Abhigupta13" className="text-slate-200 hover:bg-[#2f225b] hover:text-secondary" target='_blank' rel="noopener noreferrer">
     <FaGithub className="w-6 h-6 rounded-md shadow-md" />
   </a>
 </div>

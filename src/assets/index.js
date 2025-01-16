@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import testing from "./testing.png"
 import fastapi from "./tech/fastapi.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -23,6 +23,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import singularity from "./company/sigularity.png";
+import stratex_logo from "./company/stratex_logo.jpeg"
 import hog from "./company/hog.png"
 
 import carrent from "./carrent.png";
@@ -33,8 +34,18 @@ import tourfy from "./tourfy.png";
 import scraperxyz from "./scraperxyz.png";
 import campapi from "./campapi.png";
 import developer from "./developer.png";
+import cpp from "./tech/cpp.png";
+import sql from "./tech/sql.png";
+import mysql from "./tech/mysql.png";
+import postgre from "./tech/postgre.png";
+import awsS3Icon from "./tech/awsS3Icon.png";
+import jestIcon from "./tech/jestIcon.png";
+import jiraIcon from "./tech/jiraIcon.png";
+import postmanIcon from "./tech/postmanIcon.png";
+
 export {
   logo,
+  testing,
   backend,
   creator,
   mobile,
@@ -64,5 +75,14 @@ export {
   campapi,
   scraperxyz,
   tourfy,
-  developer
+  developer,
+  stratex_logo,
+  cpp,
+  sql,
+  mysql,
+  postgre,
+  awsS3Icon,
+  jestIcon,
+  jiraIcon,
+  postmanIcon,
 };
