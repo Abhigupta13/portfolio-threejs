@@ -13,6 +13,7 @@ import {
     mongodb,
     git,
     stratex_logo,
+    sih_logo,
     scraperxyz,
     tourfy,
     campapi,cpp,awsS3Icon,jestIcon,jiraIcon,mysql,postgre,postmanIcon,sql
@@ -104,6 +105,22 @@ import {
         "Mentored new interns, sharing best practices and ensuring seamless continuation of work processes.",
       ],
     },
+    {
+      title: "Smart India Hackathon 2023",
+      project_name: "Her Safety",
+      date: "Aug 2023 - Oct 2023",
+      icon: sih_logo, // Replace with your logo variable
+      iconBg: "#FFC107",
+      link: "https://hersafety.vercel.app/", // Replace with actual link if available
+      points: [
+        "Developed a web application enabling women to anonymously report incidents of harassment and assault.",
+        "Integrated a feature to recommend the top 10 nearby NGOs for women's support services.",
+        "Provided a platform for users to share safety tips and learn from prior victims' experiences.",
+        "Utilized React.js and Bootstrap for an interactive and user-friendly interface.",
+        "Collaborated in a team to create a socially impactful solution within a limited timeframe.",
+      ],
+    },
+    
   ];
   
   

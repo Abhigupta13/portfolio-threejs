@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 
 import singularity from "./company/sigularity.png";
 import stratex_logo from "./company/stratex_logo.jpeg"
+import sih_logo from "./company/sih.png"
 import hog from "./company/hog.png"
 
 import carrent from "./carrent.png";
@@ -44,6 +45,7 @@ import jiraIcon from "./tech/jiraIcon.png";
 import postmanIcon from "./tech/postmanIcon.png";
 
 export {
+  sih_logo,
   logo,
   testing,
   backend,
