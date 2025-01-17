@@ -14,6 +14,8 @@ import {
     git,
     stratex_logo,
     sih_logo,
+    quickmart_image,
+    bookingpilot_image,
     scraperxyz,
     tourfy,
     campapi,cpp,awsS3Icon,jestIcon,jiraIcon,mysql,postgre,postmanIcon,sql
@@ -95,7 +97,7 @@ import {
       company_name: "Stratex Consulting Services Pvt. Ltd.",
       date: "Jun 2024 - Nov 2024",
       icon: stratex_logo,
-      iconBg: "#383E56",
+      iconBg: "#ffff",
       link: "https://drive.google.com/drive/folders/1NOYIQSVCNPxTFCVqgNwbEp0MPZ6Gf3_R?usp=sharing", // Link to related documents
       points: [
         "Architected and documented 35+ API blueprints following an API-first approach, reducing integration time by 30% across multiple development teams.",
@@ -107,10 +109,10 @@ import {
     },
     {
       title: "Smart India Hackathon 2023",
-      project_name: "Her Safety",
+      company_name: "Her Safety (Shortlisted at College Level)",
       date: "Aug 2023 - Oct 2023",
       icon: sih_logo, // Replace with your logo variable
-      iconBg: "#FFC107",
+      iconBg: "#ffff",
       link: "https://hersafety.vercel.app/", // Replace with actual link if available
       points: [
         "Developed a web application enabling women to anonymously report incidents of harassment and assault.",
@@ -153,67 +155,56 @@ import {
   
   const projects = [
     {
-      name: "MyCamp API | Bootcamp Management System",
+      name: "QuickMart | MERN Stack E-commerce Website",
       description:
-        "Welcome to the MyCamp API documentation! This API allows you to manage bootcamps, courses, user authentication, users, and reviews for educational purposes.",
+        "Developed a comprehensive MERN stack e-commerce platform featuring product listings, detailed product pages, cart, and secure checkout. Integrated Stripe for payment processing and enhanced user security using Passport.js, JWT, and secure cookies.",
       tags: [
         {
           name: "NodeJS",
           color: "blue-text-gradient",
         },
         {
-          name: "MongoDB",
+          name: "ReactJS",
           color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: quickmart_image, // Replace with your image variable
+      source_code_link: "https://github.com/Abhigupta13/Ecommerce-server", // Replace with your GitHub link
+    },
+    {
+      name: "BookingPilot | Flight Booking Backend",
+      description:
+        "Designed the backend for an Airline Booking Management System with a 4-microservices architecture. Implemented an API Gateway for efficient routing and JWT-based authentication for secure user access and booking management.",
+      tags: [
+        {
+          name: "NodeJS",
+          color: "blue-text-gradient",
         },
         {
           name: "ExpressJS",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "RestAPI",
-          color: "pink-text-gradient",
-        }
-      ],
-      image: campapi,
-      source_code_link: "https://github.com/adityaiiitr/MyCamp-API",
-    },
-    {
-      name: "ScraperXYZ Bot | Python-Telegram Integration ",
-      description:
-        "Connected Telegram Bot to a polling program via Telegram Bot API Token, enabling bot commands and treating all text as searchable queries. Leveraged httpx and selectolax for web scraping, extracting data from the XYZ website. Deployed on AWS EC2 for seamless performance.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Web Scraping",
-          color: "green-text-gradient",
-        }
-      ],
-      image: scraperxyz,
-      source_code_link: "https://github.com/adityaiiitr/scraperxyz-telegram-bot",
-    },
-    {
-      name: "TourFY | Your First Tour",
-      description:"This was my initial foray into web development, where I successfully designed a responsive website using only HTML and CSS, implementing CSS Flexbox Grid for improved responsiveness.",
-      tags: [
-        {
-          name: "HTML5",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS3",
           color: "green-text-gradient",
         },
         {
-          name: "FlexBox",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
+        {
+          name: "JWT",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: tourfy,
-      source_code_link: "https://github.com/adityaiiitr/TourFY",
+      image: bookingpilot_image, // Replace with your image variable
+      source_code_link: "https://github.com/Abhigupta13/API_Gateway-Airline", // Replace with your GitHub link
     },
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects, services2 };

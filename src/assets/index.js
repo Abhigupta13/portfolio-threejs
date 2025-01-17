@@ -30,6 +30,8 @@ import hog from "./company/hog.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import quickmart_image from "./quickmart_image.png";
+import bookingpilot_image from "./bookingPilot_github.png";
 
 import tourfy from "./tourfy.png";
 import scraperxyz from "./scraperxyz.png";
@@ -46,6 +48,8 @@ import postmanIcon from "./tech/postmanIcon.png";
 
 export {
   sih_logo,
+  bookingpilot_image,
+  quickmart_image,
   logo,
   testing,
   backend,
