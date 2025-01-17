@@ -45,13 +45,14 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]'
       >
-        I'm a skilled developer with experience in Python and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        FastAPI. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a skilled backend developer with expertise in building scalable APIs,
+         secure systems, and efficient backend solutions. With a strong foundation 
+         in JavaScript, TypeScript, and database technologies, I have experience designing 
+         and implementing user-focused applications across domains like HRM, CRM, and e-commerce. 
+         Passionate about problem-solving, I collaborate with teams to deliver impactful solutions 
+         to real-world challenges. Let’s bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
