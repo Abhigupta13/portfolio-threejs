@@ -31,7 +31,7 @@ const Hero = () => {
 
       </div> */}
 
-<div className="absolute bottom-10 xs:bottom-20 md:bottom-84 w-full flex justify-center items-center">
+<div className="absolute bottom-10 xs:bottom-10 md:bottom-84 w-full flex justify-center items-center">
   <img className="bg-blend" src={developer} alt="Developer" />
 </div>
 
