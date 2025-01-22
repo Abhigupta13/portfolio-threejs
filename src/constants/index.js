@@ -16,6 +16,11 @@ import {
     sih_logo,
     quickmart_image,
     bookingpilot_image,
+    setup_node_mvc_image,
+    newswave_image,
+    chatapp_image,
+    opinionhub_image,
+    
     scraperxyz,
     tourfy,
     campapi,cpp,awsS3Icon,jestIcon,jiraIcon,mysql,postgre,postmanIcon,sql
@@ -159,52 +164,80 @@ import {
       description:
         "Developed a comprehensive MERN stack e-commerce platform featuring product listings, detailed product pages, cart, and secure checkout. Integrated Stripe for payment processing and enhanced user security using Passport.js, JWT, and secure cookies.",
       tags: [
-        {
-          name: "NodeJS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ReactJS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "MongoDB",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Stripe",
-          color: "yellow-text-gradient",
-        },
+        { name: "NodeJS", color: "blue-text-gradient" },
+        { name: "ReactJS", color: "green-text-gradient" },
+        { name: "MongoDB", color: "pink-text-gradient" },
+        { name: "Stripe", color: "yellow-text-gradient" },
       ],
-      image: quickmart_image, // Replace with your image variable
-      source_code_link: "https://github.com/Abhigupta13/Ecommerce-server", // Replace with your GitHub link
+      image: quickmart_image,
+      source_code_link: "https://github.com/Abhigupta13/Ecommerce-server",
     },
     {
       name: "BookingPilot | Flight Booking Backend",
       description:
         "Designed the backend for an Airline Booking Management System with a 4-microservices architecture. Implemented an API Gateway for efficient routing and JWT-based authentication for secure user access and booking management.",
       tags: [
-        {
-          name: "NodeJS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ExpressJS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "MySQL",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "JWT",
-          color: "yellow-text-gradient",
-        },
+        { name: "NodeJS", color: "blue-text-gradient" },
+        { name: "ExpressJS", color: "green-text-gradient" },
+        { name: "MySQL", color: "pink-text-gradient" },
+        { name: "JWT", color: "yellow-text-gradient" },
       ],
-      image: bookingpilot_image, // Replace with your image variable
-      source_code_link: "https://github.com/Abhigupta13/API_Gateway-Airline", // Replace with your GitHub link
+      image: bookingpilot_image,
+      source_code_link: "https://github.com/Abhigupta13/API_Gateway-Airline",
+    },
+    {
+      name: "Set-Up-Node-MVC | CLI for Scaffolding Node.js Projects",
+      description:
+        "Created a CLI tool to scaffold Node.js MVC architectures with ease. Supports JavaScript/TypeScript, Express.js setup, and basic project configuration. Designed to streamline project initialization, with features like database configurations and live-reload support.",
+      tags: [
+        { name: "NodeJS", color: "blue-text-gradient" },
+        { name: "TypeScript", color: "green-text-gradient" },
+        { name: "CLI", color: "pink-text-gradient" },
+        { name: "ExpressJS", color: "yellow-text-gradient" },
+      ],
+      image: setup_node_mvc_image,
+      source_code_link: "https://github.com/Abhigupta13/Set-Up-Node-MVC",
+    },
+    {
+      name: "NewsWave | News Browsing React App",
+      description:
+        "Developed a React app allowing users to browse and read the latest news articles. Features an intuitive UI and navigation using React-Router to view news from various sources and categories.",
+      tags: [
+        { name: "ReactJS", color: "green-text-gradient" },
+        { name: "Bootstrap", color: "blue-text-gradient" },
+        { name: "REST API", color: "pink-text-gradient" },
+      ],
+      image: newswave_image,
+      source_code_link: "https://github.com/Abhigupta13/NewsWave-React-App",
+    },
+    {
+      name: "OpinionHub | Twitter-like Backend",
+      description:
+        "Built the backend of a Twitter-like application where users can create, like, and comment on tweets or other comments. Features secure user authentication with PassportJS and unit testing with Jest.",
+      tags: [
+        { name: "NodeJS", color: "blue-text-gradient" },
+        { name: "MongoDB", color: "pink-text-gradient" },
+        { name: "PassportJS", color: "yellow-text-gradient" },
+        { name: "AWS S3", color: "green-text-gradient" },
+      ],
+      image: opinionhub_image,
+      source_code_link: "https://github.com/Abhigupta13/Twitter_Dev_MongoDB",
+    },
+    {
+      name: "Chat App | Real-Time Messaging",
+      description:
+        "Developed a chat application using Socket.io, enabling real-time messaging and group chats via private socket rooms. Leveraged MongoDB for storing chat history and EJS for dynamic views.",
+      tags: [
+        { name: "Socket.io", color: "pink-text-gradient" },
+        { name: "MongoDB", color: "blue-text-gradient" },
+        { name: "ExpressJS", color: "green-text-gradient" },
+        { name: "EJS", color: "yellow-text-gradient" },
+      ],
+      image: chatapp_image,
+      source_code_link: "https://github.com/Abhigupta13/chatApp-socket-nodeJs",
     },
   ];
+  
   
   
   export { services, technologies, experiences, testimonials, projects, services2 };

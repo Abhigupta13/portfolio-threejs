@@ -32,6 +32,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import quickmart_image from "./quickmart_image.png";
 import bookingpilot_image from "./bookingPilot_github.png";
+import setup_node_mvc_image from "./setup_node_mvc_image.png";
+import newswave_image from "./newswave_image.png";
+import chatapp_image from "./chatapp_image.png";
+import opinionhub_image from "./opinionhub_image.png";
 
 import tourfy from "./tourfy.png";
 import scraperxyz from "./scraperxyz.png";
@@ -50,6 +54,10 @@ export {
   sih_logo,
   bookingpilot_image,
   quickmart_image,
+  setup_node_mvc_image,
+    newswave_image,
+    chatapp_image,
+    opinionhub_image,
   logo,
   testing,
   backend,
