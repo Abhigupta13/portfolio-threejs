@@ -39,6 +39,8 @@ import opinionhub_image from "./opinionhub_image.png";
 
 import tourfy from "./tourfy.png";
 import scraperxyz from "./scraperxyz.png";
+import pythonIcon from "./tech/python.png";
+import fastApiIcon from "./tech/fastApiIcon.png";
 import campapi from "./campapi.png";
 import developer from "./developer.png";
 import cpp from "./tech/cpp.png";
@@ -63,6 +65,8 @@ export {
   backend,
   creator,
   mobile,
+  pythonIcon,
+    fastApiIcon,
   web,
   github,
   menu,

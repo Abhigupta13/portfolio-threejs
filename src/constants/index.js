@@ -11,6 +11,8 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    pythonIcon,
+    fastApiIcon,
     git,
     stratex_logo,
     sih_logo,
@@ -73,26 +75,29 @@ import {
     },
   ];
   
-   const technologies = [
+  const technologies = [
     { name: "JavaScript", icon: javascript },
     { name: "TypeScript", icon: typescript },
+    { name: "Python", icon: pythonIcon || web }, // Added Python
     { name: "C/C++", icon: cpp || web },
-    { name: "SQL", icon: sql || web},
+    { name: "SQL", icon: sql || web },
     { name: "ReactJS", icon: reactjs },
     { name: "Redux", icon: redux },
-    { name: "HTML", icon: html },
-    { name: "Tailwind CSS", icon: tailwind },
+    { name: "FastAPI", icon: fastApiIcon || web }, // Added FastAPI
     { name: "NodeJS", icon: nodejs },
     { name: "ExpressJS", icon: backend },
     { name: "MongoDB", icon: mongodb },
-    { name: "MySQL", icon: mysql|| web },
-    { name: "PostgreSQL", icon: postgre|| web },
+    { name: "MySQL", icon: mysql || web },
+    { name: "PostgreSQL", icon: postgre || web },
     { name: "Git", icon: git },
-    { name: "AWS S3", icon: awsS3Icon|| web },
-    { name: "Jest", icon: jestIcon|| web },
-    { name: "Jira", icon: jiraIcon|| web },
-    { name: "Postman", icon: postmanIcon|| web },
-  ];
+    { name: "AWS S3", icon: awsS3Icon || web },
+    { name: "HTML", icon: html },
+    { name: "Tailwind CSS", icon: tailwind },
+    { name: "Jest", icon: jestIcon || web },
+    { name: "Jira", icon: jiraIcon || web },
+    { name: "Postman", icon: postmanIcon || web },
+];
+
   
   
   
